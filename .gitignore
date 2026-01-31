@@ -3,6 +3,10 @@
 /gradle/
 /build/
 
+# Data files
+quiz.json
+users.json
+
 # IntelliJ
 *.iml
 out/
