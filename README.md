@@ -13,18 +13,18 @@ This project is a robust, file-based Quiz Management System developed in Java. I
 The system implements a simple but effective login gate. It parses users.json to validate credentials and identifies the user role (admin or student) to direct the program flow.
 
 2. Admin Module (Question Management)
-1. Persistence: Admins can add Multiple Choice Questions (MCQs) which are instantly appended to quiz.json.
+Persistence: Admins can add Multiple Choice Questions (MCQs) which are instantly appended to quiz.json.
 
-2. Validation: Each question requires four options and an integer answer key (1-4).
+Validation: Each question requires four options and an integer answer key (1-4).
 
-3. Infinite Loop: Admins can add questions continuously until they trigger the quit command ('q').
+Infinite Loop: Admins can add questions continuously until they trigger the quit command ('q').
 
 3. Student Module (The Quiz)
-1. Randomization: The system uses Collections.shuffle() to pull 10 random questions from the bank, ensuring no two quiz sessions are identical.
+Randomization: The system uses Collections.shuffle() to pull 10 random questions from the bank, ensuring no two quiz sessions are identical.
 
-2. Scoring Engine: A real-time counter tracks correct answers with no negative marking.
+Scoring Engine: A real-time counter tracks correct answers with no negative marking.
 
-3. Performance Feedback: | Score Range | Performance Label | 8 - 10 | Excellent | | 5 - 7 | Good | | 3 - 4 | Very Poor | | 0 - 2 | Failed |
+Performance Feedback: | Score Range | Performance Label | 8 - 10 | Excellent | | 5 - 7 | Good | | 3 - 4 | Very Poor | | 0 - 2 | Failed |
 
 🏗️ Technical Architecture (OOP)
 The project is built using a clean separation of concerns:
