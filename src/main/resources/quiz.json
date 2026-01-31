@@ -158,5 +158,21 @@
     "question": "Retesting a single component after a change is called:",
     "option 1": "Smoke testing",
     "option 2": "Sanity testing"
+  },
+  {
+    "answerkey": 3,
+    "option 3": "Quality planning",
+    "option 4": "None of the mentioned",
+    "question": "which of the following is not included in failure costs?",
+    "option 1": "Rework",
+    "option 2": "Repair"
+  },
+  {
+    "answerkey": 2,
+    "option 3": "Tntegration testing",
+    "option 4": "Acceptance testing",
+    "question": "Which testing is performed to verify if individual units work as expected?",
+    "option 1": "System Testing",
+    "option 2": "Unit testing"
   }
 ]
