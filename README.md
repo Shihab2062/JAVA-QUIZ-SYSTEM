@@ -13,33 +13,33 @@ This project is a robust, file-based Quiz Management System developed in Java. I
 The system implements a simple but effective login gate. It parses users.json to validate credentials and identifies the user role (admin or student) to direct the program flow.
 
 2. Admin Module (Question Management)
-Persistence: Admins can add Multiple Choice Questions (MCQs) which are instantly appended to quiz.json.
+1. Persistence: Admins can add Multiple Choice Questions (MCQs) which are instantly appended to quiz.json.
 
-Validation: Each question requires four options and an integer answer key (1-4).
+2. Validation: Each question requires four options and an integer answer key (1-4).
 
-Infinite Loop: Admins can add questions continuously until they trigger the quit command ('q').
+3. Infinite Loop: Admins can add questions continuously until they trigger the quit command ('q').
 
 3. Student Module (The Quiz)
-Randomization: The system uses Collections.shuffle() to pull 10 random questions from the bank, ensuring no two quiz sessions are identical.
+1. Randomization: The system uses Collections.shuffle() to pull 10 random questions from the bank, ensuring no two quiz sessions are identical.
 
-Scoring Engine: A real-time counter tracks correct answers with no negative marking.
+2. Scoring Engine: A real-time counter tracks correct answers with no negative marking.
 
-Performance Feedback: | Score Range | Performance Label | | :--- | :--- | | 8 - 10 | Excellent | | 5 - 7 | Good | | 3 - 4 | Very Poor | | 0 - 2 | Failed |
+3. Performance Feedback: | Score Range | Performance Label | 8 - 10 | Excellent | | 5 - 7 | Good | | 3 - 4 | Very Poor | | 0 - 2 | Failed |
 
 🏗️ Technical Architecture (OOP)
 The project is built using a clean separation of concerns:
 
-Encapsulation: Question data is stored in private/protected fields with specific methods for JSON conversion.
+1. Encapsulation: Question data is stored in private/protected fields with specific methods for JSON conversion.
 
-Collection Framework: Uses JSONArrays and ArrayLists to manage and shuffle question sets.
+2. Collection Framework: Uses JSONArrays and ArrayLists to manage and shuffle question sets.
 
-File I/O: Implements FileReader and FileWriter with json-simple to ensure data persists even after the program closes.
+3. File I/O: Implements FileReader and FileWriter with json-simple to ensure data persists even after the program closes.
 
 🚀 How to Setup
-Clone the Repository:
-
+1. Clone the Repository:
 Bash
 git clone https://github.com/your-username/quiz-system-batch17.git
-Add Dependencies: Ensure the json-simple-1.1.1.jar is added to your project's Build Path/Library.
 
-Run: Execute the QuizSystem.java file.
+2. Add Dependencies: Ensure the json-simple-1.1.1.jar is added to your project's Build Path/Library.
+
+3. Run: Execute the QuizSystem.java file.
