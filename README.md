@@ -1,10 +1,10 @@
-# 🎓 Java Quiz System
+# Java Quiz System
 
 A robust, file-based Quiz Management System developed in Java. It utilizes Object-Oriented Programming (OOP) principles and JSON for data persistence, enabling seamless transitions between admin and student roles.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Architecture](#architecture)
@@ -23,7 +23,7 @@ This system provides role-based access (Admin/Student) with persistent JSON-base
 
 ---
 
-## ✨ Features
+## Features
 
 ### 1. Security & Authentication
 - Simple yet effective login gate
@@ -49,7 +49,7 @@ This system provides role-based access (Admin/Student) with persistent JSON-base
 
 ---
 
-## 🏗️ Architecture (OOP Principles)
+## Architecture (OOP Principles)
 
 - **Encapsulation:** Question data stored in private/protected fields with JSON conversion methods
 - **Collection Framework:** Uses JSONArrays and ArrayLists for efficient question management
@@ -57,7 +57,7 @@ This system provides role-based access (Admin/Student) with persistent JSON-base
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Java JDK 11 or later
 - Git (for version control)
@@ -65,7 +65,7 @@ This system provides role-based access (Admin/Student) with persistent JSON-base
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -83,7 +83,7 @@ The json-simple JAR should be in your build path automatically via Gradle.
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### Run the Application
 ```bash
@@ -102,7 +102,7 @@ java -cp build/classes/java/main QuizSystem
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```
 src/
@@ -120,14 +120,14 @@ src/
 
 ---
 
-## 📺 Demo Videos
+## Demo Videos
 
 - **Admin Portal:** [Watch Demo](https://drive.google.com/file/d/14LVu3zWBB06iKHiBR59MjF1kEFxN1dKh/view?usp=sharing)
 - **Student Portal:** [Watch Demo](https://drive.google.com/file/d/1LDi8Gnk31-eQ-OIAZhOffVF2_2fx4iGN/view?usp=sharing)
 
 ---
 
-## 📦 Deployment to GitHub
+## Deployment to GitHub
 
 ```bash
 git add .
@@ -139,6 +139,6 @@ git push -u origin main
 
 ---
 
-## 📝 License
+## License
 
 This project is open source and available under the MIT License.
