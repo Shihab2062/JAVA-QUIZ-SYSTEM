@@ -1,0 +1,162 @@
+[
+  {
+    "answerkey": 3,
+    "option 3": "Quality Planning\"",
+    "option 4": "None of the mentioned",
+    "question": "Which of the following is not included in failure costs?",
+    "option 1": "Rework",
+    "option 2": "Repair"
+  },
+  {
+    "answerkey": 2,
+    "option 3": "Integration Testing",
+    "option 4": "Acceptance Testing",
+    "question": "Which testing is performed to verify if individual units work as expected?",
+    "option 1": "System Testing",
+    "option 2": "Unit Testing"
+  },
+  {
+    "answerkey": 2,
+    "option 3": "Analytical Process",
+    "option 4": "Manual Process",
+    "question": "Validation is which type of process?",
+    "option 1": "Static Process",
+    "option 2": "Dynamic Process"
+  },
+  {
+    "answerkey": 1,
+    "option 3": "Functional Process",
+    "option 4": "Regression Process",
+    "question": "Verification is which type of process?",
+    "option 1": "Static Process",
+    "option 2": "Dynamic Process"
+  },
+  {
+    "answerkey": 1,
+    "option 3": "Train new developers",
+    "option 4": "Assess team performance",
+    "question": "What is the primary objective of a Formal Technical Review (FTR)?",
+    "option 1": "Find errors during the process",
+    "option 2": "Fix bugs in code"
+  },
+  {
+    "answerkey": 2,
+    "option 3": "Beta Testing",
+    "option 4": "Usability Testing",
+    "question": "Which testing type is also known as 'Glass Box' testing?",
+    "option 1": "Black Box Testing",
+    "option 2": "White Box Testing"
+  },
+  {
+    "answerkey": 3,
+    "option 3": "Impractical and impossible",
+    "option 4": "The best way to find all bugs",
+    "question": "Exhaustive testing is generally considered to be:",
+    "option 1": "Always possible",
+    "option 2": "Practically possible"
+  },
+  {
+    "answerkey": 2,
+    "option 3": "Outsourced location",
+    "option 4": "None of the above",
+    "question": "Alpha testing is typically performed at:",
+    "option 1": "User's end",
+    "option 2": "Developer's end"
+  },
+  {
+    "answerkey": 1,
+    "option 3": "Testing lab",
+    "option 4": "Client's server only",
+    "question": "Beta testing is typically performed at:",
+    "option 1": "User's end",
+    "option 2": "Developer's end"
+  },
+  {
+    "answerkey": 1,
+    "option 3": "Software availability",
+    "option 4": "Quality metric",
+    "question": "Non-conformance to software requirements is known as:",
+    "option 1": "Software failure",
+    "option 2": "Software reliability"
+  },
+  {
+    "answerkey": 2,
+    "option 3": "Alpha testing",
+    "option 4": "Unit testing",
+    "question": "Testing of software with actual data in an actual environment is:",
+    "option 1": "Regression testing",
+    "option 2": "Beta testing"
+  },
+  {
+    "answerkey": 2,
+    "option 3": "Iterative Model",
+    "option 4": "Agile Model",
+    "question": "Which model is also known as the 'Linear Sequential Model'?",
+    "option 1": "Spiral Model",
+    "option 2": "Waterfall Model"
+  },
+  {
+    "answerkey": 1,
+    "option 3": "Visual Design",
+    "option 4": "Value Analysis",
+    "question": "The 'V' model in SQA stands for:",
+    "option 1": "Verification and Validation",
+    "option 2": "Version Control"
+  },
+  {
+    "answerkey": 2,
+    "option 3": "Check system speed",
+    "option 4": "Test the UI",
+    "question": "Regression testing is primarily done to:",
+    "option 1": "Find new bugs",
+    "option 2": "Check if new changes broke old functionality"
+  },
+  {
+    "answerkey": 2,
+    "option 3": "Integration testing",
+    "option 4": "Sanity testing",
+    "question": "Which of these is a Non-functional test type?",
+    "option 1": "Unit testing",
+    "option 2": "Performance testing"
+  },
+  {
+    "answerkey": 2,
+    "option 3": "Quality is free",
+    "option 4": "Testing is never finished",
+    "question": "What does the 'Pareto Principle' suggest in SQA?",
+    "option 1": "50% of defects come from 50% of causes",
+    "option 2": "80% of defects come from 20% of causes"
+  },
+  {
+    "answerkey": 2,
+    "option 3": "Unit testing only",
+    "option 4": "Code review",
+    "question": "Boundary Value Analysis (BVA) is a technique used in:",
+    "option 1": "White box testing",
+    "option 2": "Black box testing"
+  },
+  {
+    "answerkey": 3,
+    "option 3": "Unit testing",
+    "option 4": "Acceptance testing",
+    "question": "The first level of testing is:",
+    "option 1": "System testing",
+    "option 2": "Integration testing"
+  },
+  {
+    "answerkey": 2,
+    "option 3": "The UI looks good",
+    "option 4": "Developers are working hard",
+    "question": "Traceability Matrix helps to ensure:",
+    "option 1": "Code is efficient",
+    "option 2": "All requirements are covered by test cases"
+  },
+  {
+    "answerkey": 4,
+    "option 3": "Full regression",
+    "option 4": "Unit regression",
+    "question": "Retesting a single component after a change is called:",
+    "option 1": "Smoke testing",
+    "option 2": "Sanity testing"
+  }
+]
